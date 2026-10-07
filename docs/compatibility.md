@@ -25,4 +25,6 @@ The client setup guides follow current official documentation. Real assistant re
 
 ## Registry manifest
 
-`server.json` describes the remote hosted server using a GitHub-owned namespace. It is a publication candidate, not evidence that Publinio is listed in the official MCP Registry. Namespace authentication and registry submission are separate steps. [Official remote-only guidance](https://github.com/modelcontextprotocol/registry/blob/main/docs/modelcontextprotocol-io/quickstart.mdx#remote-only-servers)
+Publinio was published to the official MCP Registry on 2026-10-07 as **com.publinio/social-media-mcp**, version **1.2.1**. [Exact published entry](https://registry.modelcontextprotocol.io/v0.1/servers/com.publinio%2Fsocial-media-mcp/versions/1.2.1)
+
+`server.json` mirrors that hosted-service manifest. The listing was published independently of this integration kit; the kit version remains 0.1.0. Registry publication does not establish availability in every assistant's directory. [Official remote-only guidance](https://github.com/modelcontextprotocol/registry/blob/main/docs/modelcontextprotocol-io/quickstart.mdx#remote-only-servers)

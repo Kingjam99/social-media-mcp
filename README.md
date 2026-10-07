@@ -9,6 +9,8 @@ Connect your AI assistant to your Publinio social workspace: brand context, revi
 
 [Connect your assistant](docs/connect.md) · [Tool reference](docs/tools.md) · [Examples](examples/README.md) · [Publinio](https://www.publinio.com) · [Developer docs](https://www.publinio.com/developers/mcp/)
 
+[Official MCP Registry entry](https://registry.modelcontextprotocol.io/v0.1/servers/com.publinio%2Fsocial-media-mcp/versions/1.2.1): **com.publinio/social-media-mcp**.
+
 ## Connect
 
 **Hosted MCP endpoint**

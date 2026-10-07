@@ -56,7 +56,7 @@ for (const tool of catalogue.tools) {
   validator.getValidator(tool.outputSchema);
 }
 const manifest = JSON.parse(await readFile(resolve(root, 'server.json'), 'utf8'));
-if (manifest.description.length > 100 || manifest.remotes[0].url !== catalogue.endpoint ||
+if (manifest.name !== 'com.publinio/social-media-mcp' || manifest.description.length > 100 || manifest.remotes[0].url !== catalogue.endpoint ||
     manifest.remotes[0].type !== 'streamable-http' || manifest.version !== catalogue.serverVersion) throw new Error('Invalid remote manifest.');
 const preview = await stat(resolve(root, 'assets/social-preview.jpg'));
 if (preview.size >= 1_000_000) throw new Error('Social preview exceeds 1 MB.');

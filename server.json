@@ -1,12 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.Kingjam99/social-media-mcp",
-  "title": "Publinio Social Media MCP",
-  "description": "Brand context, drafts, scheduling, saved analytics and permissioned research through Publinio.",
-  "repository": {
-    "url": "https://github.com/Kingjam99/social-media-mcp",
-    "source": "github"
-  },
+  "name": "com.publinio/social-media-mcp",
+  "title": "Social Media MCP by Publinio",
+  "description": "Create social posts, schedule campaigns, and read saved analytics with Publinio.",
   "version": "1.2.1",
   "websiteUrl": "https://www.publinio.com/developers/mcp/",
   "remotes": [
