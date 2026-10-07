@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "publinio": {
+      "type": "http",
+      "url": "https://api.publinio.com/mcp"
+    }
+  }
+}

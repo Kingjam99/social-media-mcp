@@ -1,0 +1,6 @@
+{
+  "postId": "00000000-0000-4000-8000-000000000002",
+  "revision": 1,
+  "scheduledAt": "2030-01-15T09:00:00+01:00",
+  "idempotencyKey": "your-schedule-action-001"
+}

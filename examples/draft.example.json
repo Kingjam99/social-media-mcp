@@ -1,0 +1,6 @@
+{
+  "brandId": "YOUR_BRAND_ID",
+  "platform": "linkedin",
+  "content": "A reviewable LinkedIn draft written with your approved brand context.",
+  "idempotencyKey": "your-draft-action-001"
+}

@@ -1,0 +1,17 @@
+name: Integration improvement
+description: Suggest a client example, guide or workflow
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would this help you accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+{
+  "name": "social-media-mcp",
+  "version": "0.1.0",
+  "description": "Public client examples and documentation for Publinio's hosted Social Media MCP.",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "docs": "node scripts/generate-docs.mjs",
+    "docs:check": "node scripts/generate-docs.mjs --check",
+    "check": "node scripts/check.mjs && npm run docs:check && npm test",
+    "check:public": "node scripts/check-public.mjs",
+    "example": "node examples/run.mjs"
+  },
+  "keywords": ["mcp", "social-media", "publinio", "ai", "scheduling", "analytics"],
+  "author": "Publinio",
+  "license": "MIT",
+  "type": "module",
+  "repository": { "type": "git", "url": "https://github.com/Kingjam99/social-media-mcp.git" },
+  "homepage": "https://www.publinio.com/developers/mcp/",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1"
+  }
+}

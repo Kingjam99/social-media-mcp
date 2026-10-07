@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a safe, reproducible integration issue
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Keep credentials, authorization URLs, private content and account identifiers out of this report."
+  - type: input
+    id: client
+    attributes:
+      label: Client and version
+      placeholder: "Claude, ChatGPT, Claude Code, or Node.js example"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Safe reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Redacted tool name and error code

@@ -1,0 +1,9 @@
+{
+  "client_id": "https://raw.githubusercontent.com/Kingjam99/social-media-mcp/main/config/client-metadata.json",
+  "client_name": "Publinio Social Media MCP examples",
+  "client_uri": "https://github.com/Kingjam99/social-media-mcp",
+  "redirect_uris": ["http://127.0.0.1:8347/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
