@@ -19,6 +19,6 @@
   "repository": { "type": "git", "url": "https://github.com/Kingjam99/social-media-mcp.git" },
   "homepage": "https://www.publinio.com/developers/mcp/",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.32.1"
+    "@modelcontextprotocol/sdk": "1.32.2"
   }
 }
